@@ -45,13 +45,13 @@ public class MenuScr extends Screen{
 		sllv = FileLoader.loadImage("/selectlevel.png");
 		
 		
-		btnContinue = new MyButton(game, FileLoader.loadImage("/continue.png"), 240, 300, 180, 53);
-		btnNewGame = new MyButton(game, FileLoader.loadImage("/newgame.png"), 240, 370, 180, 53);
-		btnHowToPlay = new MyButton(game, FileLoader.loadImage("/howtoplay.png"), 240, 440, 180, 53);
-		btnQuit = new MyButton(game, FileLoader.loadImage("/quit.png"), 240, 510, 180, 53);
+		btnContinue = new MyButton(game, FileLoader.loadImage("/continue.png"), 130, 300, 180, 53);
+		btnNewGame = new MyButton(game, FileLoader.loadImage("/newgame.png"), 130, 370, 180, 53);
+		btnHowToPlay = new MyButton(game, FileLoader.loadImage("/howtoplay.png"), 130, 440, 180, 53);
+		btnQuit = new MyButton(game, FileLoader.loadImage("/quit.png"), 130, 510, 180, 53);
 		btnSpeak = new MyButton(game, speak.getSubimage(0, 0, 512, 512), 350, 194, 40, 40);
 		btnDone = new MyButton(game, FileLoader.loadImage("/done.png"), 161, 355, 128, 53);
-		btnPlay = new MyButton(game, FileLoader.loadImage("/play.png"), 85, 355, 128, 53);
+		btnPlay = new MyButton(game, FileLoader.loadImage("/play1.png"), 85, 355, 128, 53);
 		btnCancel = new MyButton(game, FileLoader.loadImage("/cancel.png"), 235, 355, 128, 53);
 		btnLeft = new MyButton(game, FileLoader.loadImage("/left.png"), 100, 240, 50, 50);
 		btnRight = new MyButton(game, FileLoader.loadImage("/right.png"), 300, 240, 50, 50);
