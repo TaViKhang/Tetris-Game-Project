@@ -58,7 +58,7 @@ public class Window {
 		
 		//input = game.getInput();
 		
-		music = FileLoader.LoadSound("/music.wav");
+		music = FileLoader.LoadSound("/HeatleyBros - HeatleyBros V - 08 Dimension Drift.wav");
 		music.loop(Clip.LOOP_CONTINUOUSLY);
 		
 		menuScr = new MenuScr(game);
